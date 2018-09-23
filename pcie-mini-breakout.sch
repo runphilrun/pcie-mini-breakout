@@ -1,38 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:PCIe_Mini_Adapter-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -47,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Conn_02x26_Odd_Even J1
+L Connector_Generic:Conn_02x26_Odd_Even J1
 U 1 1 5B8AACC8
 P 5800 2800
 F 0 "J1" H 5850 4100 50  0000 C CNN
@@ -266,7 +233,7 @@ PIN46
 Text GLabel 7300 3900 2    39   Input ~ 0
 PIN48
 $Comp
-L Conn_01x15 J3
+L Connector_Generic:Conn_01x15 J3
 U 1 1 5B8ACE67
 P 8350 3400
 F 0 "J3" H 8350 4200 50  0000 C CNN
@@ -307,7 +274,7 @@ PIN46
 Text GLabel 8150 3200 0    39   Input ~ 0
 PIN47
 $Comp
-L Conn_02x26_Counter_Clockwise J2
+L Connector_Generic:Conn_02x26_Counter_Clockwise J2
 U 1 1 5BAB0545
 P 7000 2800
 F 0 "J2" H 7050 4100 50  0000 C CNN
